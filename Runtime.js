@@ -5,24 +5,21 @@
 <title>Update Log</title>
 
 <style>
-body {
+/* Remove all default spacing */
+html, body {
     margin: 0;
+    padding: 0;
     background: #000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
 }
 
-/* FIXED PANEL SIZE */
-.container {
+/* EXACT SIZE LOCK */
+.wrapper {
     width: 254px;
     height: 353px;
-    background: #000;
-    color: #00bfff;
-    font-family: Arial, Helvetica, sans-serif;
-    overflow-y: auto; /* scroll if needed */
+    overflow: hidden;
     border: 1px solid #00bfff;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00bfff;
 }
 
 /* HEADER IMAGE */
@@ -33,96 +30,71 @@ body {
 
 /* SUBHEADER */
 .subheader {
-    font-size: 10px;
-    padding: 6px;
-    border-bottom: 1px solid #00bfff;
+    font-size: 9px;
     text-align: center;
+    padding: 4px;
+    border-bottom: 1px solid #00bfff;
 }
 
-/* SECTION */
-.section {
-    padding: 6px;
+/* CONTENT AREA */
+.content {
+    padding: 5px;
+    font-size: 9px;
+    line-height: 1.15;
 }
 
-/* VERSION TEXT */
+/* VERSION */
 .version {
-    font-size: 11px;
     font-weight: bold;
-    margin-bottom: 4px;
+    margin-top: 4px;
 }
 
-/* LIST */
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-li {
-    font-size: 10px;
-    margin: 3px 0;
-    padding-left: 10px;
-    position: relative;
-}
-
-/* custom bullets */
-li::before {
-    content: "";
-    width: 4px;
-    height: 4px;
-    background: #00bfff;
-    position: absolute;
-    left: 0;
-    top: 5px;
+/* BULLET STYLE */
+.item::before {
+    content: "■ ";
 }
 
 /* DIVIDER */
 .divider {
     border-bottom: 1px solid #00bfff;
-    margin: 6px 0;
+    margin: 5px 0;
 }
 </style>
 </head>
 
 <body>
 
-<div class="container">
+<div class="wrapper">
 
     <img src="updatelog.png" class="header-img">
 
-    <div class="subheader">LATEST AVAILABLE BUILD: 0.0.1</div>
-
-    <div class="section">
-        <div class="version">V0.0.1</div>
-        <ul>
-            <li>ADDED SPOON CHARACTER</li>
-            <li>REMOVED SPOON CHARACTER</li>
-            <li>ADDED DLC CONTENT</li>
-            <li>UPDATED MOVEMENT</li>
-            <li>TWEAKED DLC</li>
-            <li>TWEAKED EARN RATES</li>
-        </ul>
+    <div class="subheader">
+        LATEST AVAILABLE BUILD: 0.0.1
     </div>
 
-    <div class="divider"></div>
+    <div class="content">
 
-    <div class="section">
         <div class="version">V0.0.1</div>
-        <ul>
-            <li>EXAMPLE TEXT UPDATE</li>
-            <li>NEW OUTFITS</li>
-        </ul>
-    </div>
+        <div class="item">ADDED SPOON CHARACTER</div>
+        <div class="item">REMOVED SPOON CHARACTER</div>
+        <div class="item">ADDED DLC CONTENT</div>
+        <div class="item">UPDATED MOVEMENT</div>
+        <div class="item">TWEAKED DLC</div>
+        <div class="item">TWEAKED EARN RATES</div>
 
-    <div class="divider"></div>
+        <div class="divider"></div>
 
-    <div class="section">
         <div class="version">V0.0.1</div>
-        <ul>
-            <li>TOWNMAP REVAMP</li>
-            <li>KYOTO ADDED</li>
-            <li>FIXED RANKED BUG FIX</li>
-        </ul>
+        <div class="item">EXAMPLE TEXT UPDATE</div>
+        <div class="item">NEW OUTFITS</div>
+
+        <div class="divider"></div>
+
+        <div class="version">V0.0.1</div>
+        <div class="item">TOWNMAP REVAMP</div>
+        <div class="item">KYOTO ADDED</div>
+        <div class="item">FIXED RANKED BUG FIX</div>
+
     </div>
 
 </div>
