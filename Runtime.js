@@ -77,25 +77,9 @@ html, body {
     <div class="content">
 
         <div class="version">V0.0.1</div>
-        <div class="item">ADDED SPOON CHARACTER</div>
-        <div class="item">REMOVED SPOON CHARACTER</div>
-        <div class="item">ADDED DLC CONTENT</div>
-        <div class="item">UPDATED MOVEMENT</div>
-        <div class="item">TWEAKED DLC</div>
-        <div class="item">TWEAKED EARN RATES</div>
+        <div class="item">made update log</div>
 
         <div class="divider"></div>
-
-        <div class="version">V0.0.1</div>
-        <div class="item">EXAMPLE TEXT UPDATE</div>
-        <div class="item">NEW OUTFITS</div>
-
-        <div class="divider"></div>
-
-        <div class="version">V0.0.1</div>
-        <div class="item">TOWNMAP REVAMP</div>
-        <div class="item">KYOTO ADDED</div>
-        <div class="item">FIXED RANKED BUG FIX</div>
 
     </div>
 
