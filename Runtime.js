@@ -13,7 +13,7 @@ html, body {
 
 /* SCALE WRAPPER (THIS IS THE MAGIC) */
 .scale {
-    transform: scale(0.75);        /* adjust this */
+    transform: scale(0.6);        /* adjust this */
     transform-origin: top left;    /* keeps it aligned */
 }
 
