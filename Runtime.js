@@ -25,6 +25,8 @@ html, body {
 /* HEADER IMAGE */
 .header-img {
     width: 100%;
+    height: 60px;
+    object-fit: cover;
     display: block;
 }
 
@@ -66,7 +68,7 @@ html, body {
 
 <div class="wrapper">
 
-    <img src="updatelogh3.png" class="header-img">
+    <img src="updatelog.png" class="header-img">
 
     <div class="subheader">
         LATEST AVAILABLE BUILD: 0.0.1
