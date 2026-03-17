@@ -82,12 +82,6 @@
 </head>
 <body>
 
-<div class="container">
-  <!-- YOUR EXACT HEADER IMAGE AS BANNER -->
-  <img src="updatelog.png" class="banner" alt="UPDATE LOG">
-
-  <div class="content">
-
     <div class="build-label">LATEST AVAILABLE BUILD: 0.0.I</div>
 
     <div class="section">
