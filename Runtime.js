@@ -24,7 +24,7 @@ html, body {
 
 /* HEADER IMAGE */
 .header-img {
-    width: 50%;
+    width: 100%;
     display: block;
 }
 
