@@ -24,7 +24,7 @@ html, body {
 
 /* HEADER IMAGE */
 .header-img {
-    width: 100%;
+    width: 254px;
     height: 20px;
     object-fit: cover;
     display: block;
