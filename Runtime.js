@@ -7,8 +7,14 @@
 <style>
 html, body {
     margin: 0;
-    padding: 0;
+    padding: 20px;
     background: #000;
+}
+
+/* SCALE WRAPPER (THIS IS THE MAGIC) */
+.scale {
+    transform: scale(0.75);        /* adjust this */
+    transform-origin: top left;    /* keeps it aligned */
 }
 
 /* MAIN PANEL */
@@ -21,10 +27,10 @@ html, body {
     color: #00bfff;
 }
 
-/* HEADER IMAGE FIX */
+/* HEADER IMAGE */
 .header-wrap {
     width: 100%;
-    height: 55px;      /* controls banner size */
+    height: 55px;
     overflow: hidden;
 }
 
@@ -71,44 +77,43 @@ html, body {
 
 <body>
 
-<div class="wrapper">
+<div class="scale">
+    <div class="wrapper">
 
-    <!-- HEADER IMAGE -->
-    <div class="header-wrap">
-        <img src="images/updatelog.png">
+        <div class="header-wrap">
+            <img src="images/updatelog.png">
+        </div>
+
+        <div class="subheader">
+            LATEST AVAILABLE BUILD: 0.0.1
+        </div>
+
+        <div class="content">
+
+            <div class="version">V0.0.1</div>
+            <div class="item">ADDED SPOON CHARACTER</div>
+            <div class="item">REMOVED SPOON CHARACTER</div>
+            <div class="item">ADDED DLC CONTENT</div>
+            <div class="item">UPDATED MOVEMENT</div>
+            <div class="item">TWEAKED DLC</div>
+            <div class="item">TWEAKED EARN RATES</div>
+
+            <div class="divider"></div>
+
+            <div class="version">V0.0.1</div>
+            <div class="item">EXAMPLE TEXT UPDATE</div>
+            <div class="item">NEW OUTFITS</div>
+
+            <div class="divider"></div>
+
+            <div class="version">V0.0.1</div>
+            <div class="item">TOWNMAP REVAMP</div>
+            <div class="item">KYOTO ADDED</div>
+            <div class="item">FIXED RANKED BUG FIX</div>
+
+        </div>
+
     </div>
-
-    <!-- SUBHEADER -->
-    <div class="subheader">
-        LATEST AVAILABLE BUILD: 0.0.1
-    </div>
-
-    <!-- CONTENT -->
-    <div class="content">
-
-        <div class="version">V0.0.1</div>
-        <div class="item">ADDED SPOON CHARACTER</div>
-        <div class="item">REMOVED SPOON CHARACTER</div>
-        <div class="item">ADDED DLC CONTENT</div>
-        <div class="item">UPDATED MOVEMENT</div>
-        <div class="item">TWEAKED DLC</div>
-        <div class="item">TWEAKED EARN RATES</div>
-
-        <div class="divider"></div>
-
-        <div class="version">V0.0.1</div>
-        <div class="item">EXAMPLE TEXT UPDATE</div>
-        <div class="item">NEW OUTFITS</div>
-
-        <div class="divider"></div>
-
-        <div class="version">V0.0.1</div>
-        <div class="item">TOWNMAP REVAMP</div>
-        <div class="item">KYOTO ADDED</div>
-        <div class="item">FIXED RANKED BUG FIX</div>
-
-    </div>
-
 </div>
 
 </body>
