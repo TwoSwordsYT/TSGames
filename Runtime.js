@@ -7,7 +7,129 @@ window['Runtime'] = (function Runtime(__can, __path){
 	 * This source code is part of the HTML5 exporter for Clickteam Multimedia Fusion 2.
 	 * 
 	 * Permission is hereby granted to any person obtaining a legal copy 
-	 * of Clickteam Multimedia Fusion 2 to use or modify this source code for 
+	 * of Clickteam Multimedia Fusion 2 to use or modify this s<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Update Log</title>
+
+<style>
+body {
+    margin: 0;
+    background: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00bfff;
+}
+
+.container {
+    width: 600px;
+    margin: 20px auto;
+    background: #000;
+}
+
+/* HEADER IMAGE */
+.header-img {
+    width: 100%;
+    display: block;
+}
+
+/* SUBHEADER */
+.subheader {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-bottom: 2px solid #00bfff;
+    background: #000;
+}
+
+/* SECTIONS */
+.section {
+    padding: 15px 20px;
+}
+
+.version {
+    font-weight: bold;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+}
+
+/* LIST STYLE */
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+li {
+    margin: 6px 0;
+    position: relative;
+    padding-left: 15px;
+}
+
+/* Custom square bullets */
+li::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    background: #00bfff;
+    position: absolute;
+    left: 0;
+    top: 7px;
+}
+
+/* DIVIDER */
+.divider {
+    border-bottom: 2px solid #00bfff;
+    margin: 15px 0;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- YOUR HEADER IMAGE -->
+    <img src="updatelog.png" class="header-img">
+
+    <div class="subheader">LATEST AVAILABLE BUILD: 0.0.1</div>
+
+    <div class="section">
+        <div class="version">V0.0.1</div>
+        <ul>
+            <li>ADDED SPOON CHARACTER</li>
+            <li>REMOVED SPOON CHARACTER</li>
+            <li>ADDED DLC CONTENT</li>
+            <li>UPDATED MOVEMENT</li>
+            <li>TWEAKED DLC</li>
+            <li>TWEAKED EARN RATES</li>
+        </ul>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="section">
+        <div class="version">V0.0.1</div>
+        <ul>
+            <li>EXAMPLE TEXT UPDATE</li>
+            <li>NEW OUTFITS</li>
+        </ul>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="section">
+        <div class="version">V0.0.1</div>
+        <ul>
+            <li>TOWNMAP REVAMP</li>
+            <li>KYOTO ADDED</li>
+            <li>FIXED RANKED BUG FIX</li>
+        </ul>
+    </div>
+
+</div>
+
+</body>
+</html>ource code for 
 	 * debugging, optimizing, or customizing applications created with 
 	 * Clickteam Multimedia Fusion 2. 
 	 * Any other use of this source code is prohibited.
