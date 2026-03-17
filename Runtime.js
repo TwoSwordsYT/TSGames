@@ -66,7 +66,7 @@ html, body {
 
 <div class="wrapper">
 
-    <img src="updatelog.png" class="header-img">
+    <img src="updatelogh3.png" class="header-img">
 
     <div class="subheader">
         LATEST AVAILABLE BUILD: 0.0.1
